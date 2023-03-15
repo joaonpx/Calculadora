@@ -3,7 +3,7 @@ value1 = input('Digite o segundo valor: ')
 value2 = input('Digite o segundo valor: ')
 
 if value1.isdigit() == False or value2.isdigit() == False:
-    print("Digite apenas numeros!")
+    print("Digite apenas números!")
     
     quit()
 
