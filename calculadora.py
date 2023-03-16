@@ -1,5 +1,5 @@
 print('\n     Calculadora\n')
-value1 = input('Digite o segundo valor: ')
+value1 = input('Digite o primeiro valor: ')
 value2 = input('Digite o segundo valor: ')
 
 if value1.isdigit() == False or value2.isdigit() == False:
