@@ -10,4 +10,4 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ## 💻 Projeto
 
-Uma calculadora simples feita para praticar Python. Desenvolvida durante o meu curso de ADS na FIAP.
+Uma calculadora simples feita para praticar. Desenvolvida durante o meu curso de ADS na FIAP.
