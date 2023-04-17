@@ -1,3 +1,5 @@
+from calc import sum, sub, mult, div
+
 print('\n     Calculadora\n')
 value1 = input('Digite o primeiro valor: ')
 value2 = input('Digite o segundo valor: ')
@@ -10,30 +12,22 @@ if value1.isdigit() == False or value2.isdigit() == False:
 operationType = input('Digite a operação que quer fazer (+, -, /, *): ') 
 
 if operationType == '+': 
-  sum = float(value1) + float(value2)
-
-  result = sum
+  result = sum(value1, value2)
 
   print(f'\nO resultado da operação é: {result}')
 
 elif operationType == '-':
-  sub = float(value1) - float(value2)
-
-  result = sub
+  result = sub(value1, value2)
 
   print(f'\nO resultado da operação é: {result}')
 
 elif operationType == '/':
-  div = float(value1) / float(value2)
-
-  result = div
+  result = div(value1, value2)
 
   print(f'\nO resultado da operação é: {result:.2f}')
 
 elif operationType == '*':
-  mult = float(value1) * float(value2)
-
-  result = mult
+  result = mult(value1, value2)
 
   print(f'\nO resultado da operação é: {result}')
 
